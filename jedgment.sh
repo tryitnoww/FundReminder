@@ -27,4 +27,4 @@ EOF
 done
 
 content=${content:1}
-echo "https://api.day.app/$BARK/基金提醒/$content" 
+echo "https://api.day.app/$Bark/基金提醒/$content" 
