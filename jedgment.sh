@@ -2,6 +2,8 @@
 # 模拟环境变量
 content=""
 
+echo $Bark
+
 for file in ./*
 do
 	if [[ "${file##*.}" = "json" ]]; then
@@ -25,4 +27,4 @@ EOF
 done
 
 content=${content:1}
-curl "https://api.day.app/$BARK/基金提醒/$content" 
+echo "https://api.day.app/$BARK/基金提醒/$content" 
