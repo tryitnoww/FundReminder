@@ -1,7 +1,6 @@
 name: 'Fund Reminder Bot'
 
 on:
-  push:
   schedule:
     - cron: '40 6 * * *'
 
