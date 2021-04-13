@@ -2,8 +2,6 @@
 # 模拟环境变量
 content=""
 
-echo $Bark
-
 for file in ./*
 do
 	if [[ "${file##*.}" = "json" ]]; then
