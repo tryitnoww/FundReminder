@@ -1,5 +1,4 @@
 #!/bin/bash
-# 模拟环境变量
 content=""
 
 for file in ./*
